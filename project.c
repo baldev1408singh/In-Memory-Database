@@ -237,6 +237,7 @@ void print_all(void)
         ptr = ptr->next;
     }
 }
+
 //*************FREE ALL************
 void free_all(void)
 {
@@ -300,6 +301,11 @@ int main()
         else if (strcmp(cmd, "PRINT") == 0)
         {
             print_all();
+        }
+        else if (strcmp(cmd, "DEL_ALL") == 0)
+        {
+            free_all();
+            PRINTF("ALL DATA DELETED\n");
         }
         else
         {

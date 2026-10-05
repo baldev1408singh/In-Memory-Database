@@ -305,7 +305,7 @@ int main()
         else if (strcmp(cmd, "DEL_ALL") == 0)
         {
             free_all();
-            PRINTF("ALL DATA DELETED\n");
+            printf("ALL DATA DELETED\n");
         }
         else
         {

@@ -27,6 +27,7 @@ contain spaces.
 | `LOAD <filename>` | Reads a file and adds its data |
 | `PRINT` | Shows everything stored |
 | `EXIT` | Saves to `auto.txt` and quits |
+| `DEL_ALL` | Deletes everything stired|
 
 ## Example
 
